@@ -1,0 +1,39 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Datasets, experiment outputs, and checkpoints
+data/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Experiment logs
+stdout-*.txt
+stderr-*.txt
+raw_log-*.txt
+args-*.txt
+*.log
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz

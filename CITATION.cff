@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use CADRE in your research, please cite this software and the accompanying manuscript."
+title: "CADRE: Calibrated Adaptive Distillation with Relational Embedding"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Xin
+    orcid: "https://orcid.org/0009-0008-9887-5265"
+  - family-names: Wang
+    given-names: Zhuowei
+repository-code: "https://github.com/chenxinxinxin1314-netizen/CADRE"
+license: MIT
+date-released: 2026-08-31
