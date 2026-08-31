@@ -98,18 +98,6 @@ python src/main_incremental.py \
   --gpu 0
 ```
 
-## Default CADRE Configuration
-
-| Parameter | Value |
-| --- | ---: |
-| Response-distillation coefficient | 3.0 |
-| Distillation temperature | 1.0 |
-| Feature-distillation coefficient | 1.0 |
-| Adaptive weighting temperature | 2.0 |
-| Relational coefficient | 1.0 |
-| Maximum sub-prototypes per class | 3 |
-| Classifier calibration epochs | 10 |
-
 
 ## Acknowledgment
 
