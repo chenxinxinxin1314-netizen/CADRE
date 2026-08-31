@@ -110,19 +110,6 @@ python src/main_incremental.py \
 | Maximum sub-prototypes per class | 3 |
 | Classifier calibration epochs | 10 |
 
-## Citation
-
-The citation entry will be updated when the paper is published. For the current
-manuscript, please use:
-
-```bibtex
-@article{chen2026cadre,
-  title   = {CADRE: Calibrated Adaptive Distillation with Relational Embedding},
-  author  = {Chen, Xin and Wang, Zhuowei},
-  year    = {2026},
-  note    = {Manuscript}
-}
-```
 
 ## Acknowledgment
 
