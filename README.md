@@ -98,6 +98,5 @@ python src/main_incremental.py \
 This implementation is built on the FACIL class-incremental learning framework.
 The original FACIL copyright and MIT license are retained in `LICENSE`.
 
-## License
 
 This repository is released under the MIT License. See `LICENSE` for details.
