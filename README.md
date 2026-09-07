@@ -1,15 +1,8 @@
 # CADRE
 
-Official PyTorch implementation of **CADRE: Calibrated Adaptive Distillation
-with Relational Embedding** for exemplar-free class-incremental learning.
+Official PyTorch implementation of **CADRE: Stabilizing Feature Geometry for Distribution-Aware Classifier Recalibration in Exemplar-Free Class-Incremental Learning** for exemplar-free class-incremental learning.
 
-CADRE addresses representation drift and classifier bias in two coupled
-phases. During incremental representation learning, adaptive response
-distillation assigns task-dependent weights to previous-task responses, while
-pointwise and relational feature constraints preserve the embedding space.
-After each task, class distributions are summarized with Gaussian
-sub-prototypes and the classifier heads are recalibrated in feature space with
-the backbone frozen. No image or individual historical feature is retained.
+Visual recognition systems must learn new categories without retraining on complete data histories, while privacy, storage, or access constraints may preclude retaining earlier images. Exemplar-free class-incremental learning addresses this setting, yet supervision limited to new-class data causes old representations to drift and classifier decisions to favor recent classes. CADRE addresses these failures at their respective stages. During representation learning, response losses for previous tasks are weighted by current teacher--student disagreement, while instance alignment and relational constraints preserve feature consistency and pairwise geometry. After the encoder is frozen, each class is described by a mixture of Gaussian sub-prototypes, from which pseudo-features are sampled to recalibrate the joint classifier. The preserved geometry keeps statistics estimated at earlier stages relevant to this correction. Only model parameters and compact class-conditional statistics are carried forward, with neither images nor individual historical features retained. Across three image-classification benchmarks and two task granularities, CADRE improves average incremental accuracy over the strongest competing method in each setting by 5.1--21.0 percentage points and obtains the highest final accuracy and lowest forgetting in all six settings. 
 
 ## Repository Structure
 
